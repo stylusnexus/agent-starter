@@ -1,5 +1,7 @@
 # CLAUDE.md
 
+**Read [SOUL.md](./SOUL.md) first** — it defines how we think, decide, and communicate as a team.
+
 ## Project Overview
 <!-- Describe what your project does, its tech stack, and current phase -->
 <!-- Example: "A Next.js SaaS that helps teams manage project timelines. Currently in MVP phase." -->
