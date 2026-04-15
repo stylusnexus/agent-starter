@@ -14,10 +14,19 @@ CLAUDE.md                              # Project brain — rules, commands, gotc
 │   ├── testing-strategy.md            # When to use unit vs integration vs E2E
 │   └── database-patterns.md           # Migrations, queries, security
 ├── agents/                            # Specialized agent definitions
-│   └── backend-engineer.md            # Example agent with memory integration
+│   ├── backend-engineer.md            # API design, database, server-side
+│   ├── ui-engineer.md                 # Frontend, components, responsive design
+│   ├── ux-designer.md                 # User experience, interaction design
+│   ├── ai-engineer.md                 # LLM integration, prompts, AI safety
+│   ├── product-manager.md             # Feature prioritization, roadmaps
+│   └── technical-writer.md            # Documentation, API docs, guides
 ├── agent-memory/                      # Per-agent persistent knowledge
-│   └── backend-engineer/
-│       └── MEMORY.md                  # Memory index (loaded every session)
+│   ├── backend-engineer/MEMORY.md
+│   ├── ui-engineer/MEMORY.md
+│   ├── ux-designer/MEMORY.md
+│   ├── ai-engineer/MEMORY.md
+│   ├── product-manager/MEMORY.md
+│   └── technical-writer/MEMORY.md
 ├── skills/                            # Workflow discipline skills
 │   ├── brainstorm.md                  # Think before you build
 │   ├── tdd.md                         # Test-driven development
