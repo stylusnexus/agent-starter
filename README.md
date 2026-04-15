@@ -65,9 +65,47 @@ Read SETUP.md and set up this project.
 
 It will scan your codebase, ask targeted questions, and generate a CLAUDE.md and support files tailored to your project. See [SETUP.md](SETUP.md) for the full workflow.
 
-## Learn More
+## Recommended Plugins
 
-This template accompanies the full guide: **[Shipping with Agents](https://stylusnexus.github.io/shipping-with-agents/)** — advanced Claude Code patterns from a production team.
+Plugins extend your Claude Code setup with packaged skills, hooks, and integrations. Install with `claude install-plugin <url>`.
+
+| Plugin | What It Does | Install |
+|--------|-------------|---------|
+| **Superpowers** | Workflow skills (brainstorm, TDD, verify, plans, review) | `claude install-plugin superpowers` |
+| **Hookify** | Create hooks from conversation analysis | `claude install-plugin hookify` |
+| **Commit Commands** | Commit, push, and PR in one command | `claude install-plugin commit-commands` |
+| **PR Review Toolkit** | Multi-agent code review | `claude install-plugin pr-review-toolkit` |
+| **Feature Dev** | Guided feature development with codebase understanding | `claude install-plugin feature-dev` |
+
+Browse more plugins with `claude plugins`.
+
+### MCP Servers (Cross-Tool)
+
+MCP servers work with Claude Code, Cursor, Codex, Windsurf, and Copilot. Add them with `claude mcp add <server>`.
+
+| Server | What It Does |
+|--------|-------------|
+| [context7](https://github.com/upstash/context7) | Current library/framework docs (prevents stale API advice) |
+| [GitHub](https://github.com/github/github-mcp-server) | PR management, issues, CI status |
+| [Playwright](https://github.com/microsoft/playwright-mcp) | Browser automation, visual testing |
+| [Sentry](https://docs.sentry.io/organization/integrations/integration-platform/mcp-server/) | Error tracking and investigation |
+
+Full directory: [mcpmarket.com](https://mcpmarket.com) (10,000+ servers) or [mcp.so](https://mcp.so) (20,000+).
+
+## Using with Other AI Coding Tools
+
+This starter is built for Claude Code, but the patterns transfer. See the [adapter callouts](https://stylusnexus.github.io/shipping-with-agents/#claude-md) in the Shipping with Agents guide for how each concept maps to:
+
+- **Cursor**: `.cursorrules`, Cursor Marketplace plugins, `@docs` references
+- **GitHub Copilot**: `.github/copilot-instructions.md`
+- **Windsurf**: `.windsurfrules`, Flows, native Memories
+- **Codex**: `AGENTS.md`, Codex plugin directory, transcript persistence
+
+## Companion Guides
+
+- **[Shipping with Agents](https://stylusnexus.github.io/shipping-with-agents/)** — development workflow patterns (agents, skills, hooks, memory)
+- **[Testing with Agents](https://stylusnexus.github.io/testing-with-agents/)** — testing patterns (mocks, visual verification, experiment-as-test, CI)
+- **[Test Starter](https://github.com/stylusnexus/test-starter)** — fork-ready testing infrastructure (companion to this repo)
 
 ## License
 
