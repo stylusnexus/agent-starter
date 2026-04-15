@@ -28,10 +28,13 @@ CLAUDE.md                              # Project brain — rules, commands, gotc
 │   ├── debug.md                       # Systematic debugging (diagnose first)
 │   ├── review-and-ship.md            # Review, commit, push, PR
 │   ├── activity-summary.md            # Repo activity and status snapshot
-│   └── experiment.md                  # Measure, fix, re-measure loop
+│   ├── experiment.md                  # Measure, fix, re-measure loop
+│   └── deploy.md                      # Ship to production via PR
 ├── hooks/                             # Automated context injection scripts
 │   ├── session-start.sh               # Shows project context on session start
-│   └── domain-context-loader.sh       # Auto-loads relevant guidance by file path
+│   ├── domain-context-loader.sh       # Auto-loads relevant guidance by file path
+│   ├── require-tests.sh              # Warns if critical code changed without tests
+│   └── instrumentation-check.sh      # Reminds to check analytics on API/form edits
 └── settings.json                      # Hook wiring configuration
 ```
 
