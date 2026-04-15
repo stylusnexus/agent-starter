@@ -84,7 +84,7 @@ Every diagram file uses this template:
 
 > **Snapshot**: Generated [YYYY-MM-DD] by `/visualize-project`. This is a point-in-time
 > snapshot, not a living document. Re-run `/visualize-project` to regenerate from current
-> codebase. For SVG: `npx -y @mermaid-js/mermaid-cli mmdc -i this-file.md -o this-file.svg`
+> codebase. For SVG: `npx -y @mermaid-js/mermaid-cli -i this-file.md -o this-file.svg`
 
 ## [Project Name] — [Diagram Type]
 
@@ -167,7 +167,7 @@ Generated N diagrams in docs/architecture/diagrams/:
 Tier: Standard (score 4)
 
 These are point-in-time snapshots. Re-run /visualize-project to regenerate.
-For SVG export: npx -y @mermaid-js/mermaid-cli mmdc -i <file>.md -o <file>.svg
+For SVG export: npx -y @mermaid-js/mermaid-cli -i <file>.md -o <file>.svg
 ```
 
 ## Cross-Platform Rules
