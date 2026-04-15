@@ -65,6 +65,16 @@ Detect the following capabilities (present or not):
 - [ ] Deployment target
 - [ ] Docker
 
+### Visual Planning (Phase 1.5)
+
+After classification, run `/visualize-project` to generate architecture diagrams before proceeding to Phase 2. The skill scores project complexity from the signals above and generates tiered Mermaid diagrams:
+
+- **Simple (score 0-1):** Module overview only (~30 seconds)
+- **Standard (score 2-4):** Module map + data flow + route tree (~2 minutes)
+- **Complex (score 5+):** Full blueprint with ER diagram, service topology, timeline (~5 minutes)
+
+You can upgrade, accept the recommendation, or skip.
+
 ### Ask the User
 
 After scanning, ask these questions (skip any you can already answer from the scan):
