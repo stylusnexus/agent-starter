@@ -32,6 +32,16 @@ CLAUDE.md                              # Project brain — rules, commands, gotc
 4. **Add agents** — define specialists for the domains you work in most
 5. **Configure hooks** — update the file path patterns in `domain-context-loader.sh`
 
+## Automated Setup
+
+Have an existing project you want to bootstrap? Point Claude at the setup runbook:
+
+```
+Read SETUP.md and set up this project.
+```
+
+It will scan your codebase, ask targeted questions, and generate a CLAUDE.md and support files tailored to your project. See [SETUP.md](SETUP.md) for the full workflow.
+
 ## Learn More
 
 This template accompanies the full guide: **[Shipping with Agents](https://stylusnexus.github.io/shipping-with-agents/)** — advanced Claude Code patterns from a production team.
