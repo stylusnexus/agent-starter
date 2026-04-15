@@ -263,7 +263,7 @@ When setting up, avoid:
 2. **Aspirational commands** -- only document commands that actually work today.
 3. **Over-scaffolding** -- no agents, guidances, or complex skill trees for a new project. Start minimal.
 4. **Duplicating README** -- CLAUDE.md is agent context, not user documentation. Focus on gotchas, patterns, and constraints that prevent mistakes.
-5. **Generic advice** -- "write clean code" helps nobody. "Use `getTierConfig(tier)` not `TIER_CONFIGS[tier]` directly" prevents a bug.
+5. **Generic advice** -- "write clean code" helps nobody. "Always use parameterized queries, never string concatenation" prevents a bug.
 
 ## Reference: Recommended Defaults
 
