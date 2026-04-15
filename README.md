@@ -18,6 +18,17 @@ CLAUDE.md                              # Project brain — rules, commands, gotc
 ├── agent-memory/                      # Per-agent persistent knowledge
 │   └── backend-engineer/
 │       └── MEMORY.md                  # Memory index (loaded every session)
+├── skills/                            # Workflow discipline skills
+│   ├── brainstorm.md                  # Think before you build
+│   ├── tdd.md                         # Test-driven development
+│   ├── verify.md                      # Verify before claiming done
+│   ├── write-plan.md                  # Turn specs into step-by-step plans
+│   ├── execute-plan.md                # Work through plans task by task
+│   ├── orient.md                      # Rebuild context after /clear
+│   ├── debug.md                       # Systematic debugging (diagnose first)
+│   ├── review-and-ship.md            # Review, commit, push, PR
+│   ├── activity-summary.md            # Repo activity and status snapshot
+│   └── experiment.md                  # Measure, fix, re-measure loop
 ├── hooks/                             # Automated context injection scripts
 │   ├── session-start.sh               # Shows project context on session start
 │   └── domain-context-loader.sh       # Auto-loads relevant guidance by file path
