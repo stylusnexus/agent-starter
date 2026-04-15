@@ -120,7 +120,8 @@ Generate diagrams based on the tier:
 
 - Mermaid `graph TD`
 - Map URL routes to their handlers/pages.
-- Skip if the project is not a web application (CLI tool, library, etc.).
+- Detect web app by: a web framework in dependencies (`next`, `express`, `fastapi`, `rails`, `django`, `hono`, `remix`, `nuxt`, `flask`, `koa`) OR a routing directory exists (`src/app/`, `src/pages/`, `routes/`, `app/`).
+- Skip if none of these signals are detected (CLI tool, library, etc.) and note in the report: "Route Tree skipped -- no web framework or routing directory detected."
 - Group by route prefix. Show middleware as intermediate nodes.
 
 **Entity Relationships** (`entity-relationships.md`) -- Complex only, if database exists
@@ -140,7 +141,8 @@ Generate diagrams based on the tier:
 
 - Mermaid `gantt`
 - Estimated build phases based on the codebase structure and TODO/roadmap files.
-- Skip if the project is mature (no roadmap or planning docs found).
+- Generate ONLY if the project is greenfield: the working directory is empty, fewer than 10 source files exist, or the git history has 5 or fewer commits.
+- Skip for established projects and note in the report: "Feature Timeline skipped -- project has [N] source files and [N] commits (not greenfield)."
 
 ### Step 5: Update CLAUDE.md
 
