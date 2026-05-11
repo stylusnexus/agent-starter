@@ -1,6 +1,6 @@
 ---
 name: review-and-ship
-description: Use when work is done and ready to commit, push, and create a PR. Reviews changes, fixes issues, then ships.
+description: Use when work is done and ready to leave your machine: about to commit, push, or open a PR.
 ---
 
 # Review and Ship

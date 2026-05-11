@@ -1,6 +1,6 @@
 ---
 name: experiment
-description: Use for experiment-driven development. Run a generation or process N times, measure results, compare approaches, and iterate based on data.
+description: Use when comparing approaches, validating a hypothesis, or anywhere a data-driven decision beats an intuition-driven one.
 ---
 
 # Experiment-Driven Development

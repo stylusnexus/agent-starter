@@ -1,6 +1,6 @@
 ---
 name: write-plan
-description: Use when you have a spec or requirements for a multi-step task. Creates a detailed implementation plan before touching code.
+description: Use when you have a spec or requirements for a multi-step task, or before touching code on anything that will take more than one focused session.
 ---
 
 # Write Implementation Plan
