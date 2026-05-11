@@ -1,6 +1,6 @@
 ---
 name: verify
-description: Use before claiming work is complete, fixed, or passing. Run verification commands and confirm output before reporting done.
+description: Use before claiming work is complete, fixed, or passing, or before committing or creating PRs.
 ---
 
 # Verification Before Completion

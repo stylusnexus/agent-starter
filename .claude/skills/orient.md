@@ -1,6 +1,6 @@
 ---
 name: orient
-description: Use after /clear or at the start of a new session to rebuild working context. Reads key files and reconstructs what you need to know.
+description: Use after /clear, at the start of a fresh session, or when picking up work you haven't touched in a while and need to rebuild context.
 ---
 
 # Orient

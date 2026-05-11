@@ -1,6 +1,6 @@
 ---
 name: deploy
-description: Use when ready to push to production. Runs build check, creates PR from dev to main, and merges.
+description: Use when ready to push to production, when merging a dev branch into main for release, or when a feature is verified and ready for users.
 ---
 
 # Deploy

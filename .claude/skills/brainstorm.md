@@ -1,6 +1,6 @@
 ---
 name: brainstorm
-description: Use before any creative work (new features, components, or behavior changes). Explores intent and requirements before jumping to code.
+description: Use before any creative work: new features, components, behavior changes, or anywhere the design space hasn't been explored yet.
 ---
 
 # Brainstorm

@@ -1,6 +1,6 @@
 ---
 name: execute-plan
-description: Use when you have a written implementation plan to execute. Works through tasks sequentially with review checkpoints.
+description: Use when you have a written implementation plan ready to execute, or starting on a multi-step task that's already been designed.
 ---
 
 # Execute Implementation Plan

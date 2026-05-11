@@ -1,6 +1,6 @@
 ---
 name: debug
-description: Use when encountering any bug, test failure, or unexpected behavior. Diagnose before proposing fixes.
+description: Use when encountering any bug, test failure, or unexpected behavior, before reaching for a fix.
 ---
 
 # Systematic Debugging

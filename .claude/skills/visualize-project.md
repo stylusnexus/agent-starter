@@ -1,6 +1,6 @@
 ---
 name: visualize-project
-description: Scan the codebase, score its complexity, and generate Mermaid architecture diagrams tailored to the project's tier (Simple, Standard, Complex).
+description: Use when onboarding to an unfamiliar codebase, before a major refactor, or when documenting architecture for new contributors.
 ---
 
 # Visualize Project
